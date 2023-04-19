@@ -1,0 +1,283 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background-color: #f4511e;
+}
+
+nav {}
+
+.menu {
+    display: flex;
+}
+
+#logo {
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu ul {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.menu ul li:hover {
+    background-color: #fff;
+}
+
+.menu ul li:hover a {
+    color: #f4511e;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.header-content h4 {
+    font-size: 21px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.inputbox {
+    width: 30%;
+    display: flex;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 20px;
+}
+
+.inputbox button {
+    background-color: #d9534f;
+    height: 24px;
+    border: 1px solid #d9534f;
+    color: #fff;
+}
+
+/* about-section */
+#about-section {}
+
+.about-content {
+    display: flex;
+}
+
+.about-left-data {
+    padding-right: 200px;
+}
+
+.about-left-data h1 {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.p_top {
+    color: #303030;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.p_bottom {
+    color: #818181;
+    font-size: 15px;
+
+}
+
+.about-icon {}
+
+.about-icon i {
+    margin-top: 50px;
+    font-size: 200px;
+    color: #f4511e;
+    padding-right: 70px;
+}
+
+/* values-section */
+#values-section {
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+
+}
+
+.values-content {
+    display: flex;
+}
+
+.about-right-data {
+    padding-left: 200px;
+}
+
+.about-right-data h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.value-icon {}
+
+.value-icon i {
+    margin-top: 50px;
+    font-size: 200px;
+    color: #f4511e;
+    padding-left: 70px;
+}
+
+/* services-section */
+#services-section {
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+    text-align: center;
+
+}
+
+#services-section h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#services-section h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+/* portfolio-section */
+#portfolio-section {
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+    text-align: center;
+
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* pricing-section */
+#pricing-section {
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+    text-align: center;
+
+}
+
+#pricing-section h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#pricing-section h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+
+.panel-footer {
+    background-color: white !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* contact-section */
+#contact-section {
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+}
+
+#contact-section h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}

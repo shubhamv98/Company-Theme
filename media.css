@@ -1,0 +1,35 @@
+@media (max-width:500px){
+    .container{
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .inputbox{
+        width: 80%;
+    }
+    /* about */
+    .about-content{
+        flex-direction: column;
+    }
+    .about-left-data{
+        padding: 20px;
+    }
+    .about-icon{
+        text-align: center;
+    }
+    /* value */
+    .values-content{
+        flex-direction: column;
+    }
+    .about-right-data{
+        padding: 20px;
+    }
+    .value-icon{
+        text-align: center;
+    }
+}
